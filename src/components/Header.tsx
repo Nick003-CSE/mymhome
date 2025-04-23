@@ -8,7 +8,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ companyName, logoUrl }) => {
   return (
     <div className="flex flex-col items-center justify-center space-y-8">
-      <div className="w-16 h-16">
+      <div className="w-32 h-32">
         <img 
           src={logoUrl} 
           alt={`${companyName} logo`} 
