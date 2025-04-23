@@ -6,7 +6,7 @@ import Poster from '../components/poster.jpg';
 import Logo from '../components/logo.jpg';
 
 const HomePage: React.FC = () => {
-  const companyName = "Marwadi Yuva Munch";
+  const companyName = "मारवाड़ी युवा मंच, सरायकेला";
   const imageUrl = Poster;
   const imageAlt = "Beautiful workspace with modern technology";
   const logoUrl = Logo; // Replace this with your actual logo URL
