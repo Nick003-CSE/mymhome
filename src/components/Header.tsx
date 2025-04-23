@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ companyName, logoUrl }) => {
           className="w-full h-full object-contain"
         />
       </div>
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-accent-600 tracking-tight leading-tight">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold md:p-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-accent-600 tracking-tight leading-tight">
         {companyName}
       </h1>
     </div>
