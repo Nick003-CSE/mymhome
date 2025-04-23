@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ companyName, logoUrl }) => {
         />
       </div>
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-accent-600 tracking-tight leading-tight">
-        {companyName.split('').join(' ')}
+        {companyName}
       </h1>
     </div>
   );

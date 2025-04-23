@@ -9,6 +9,9 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ imageUrl, imageAlt }) => {
   return (
     <div className="flex flex-col items-center">
+      <div className="mt-6 animate-appear">
+        <RegisterButton onClick={() => alert('Registration form will open here')} />
+      </div>
       <div className="w-full max-w-4xl my-8 overflow-hidden rounded-xl shadow-lg transition-all duration-500 hover:shadow-xl">
         <div className="relative">
           <img 
